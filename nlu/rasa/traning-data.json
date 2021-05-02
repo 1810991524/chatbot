@@ -1,0 +1,101 @@
+{
+  "rasa_nlu_data": {
+    "regex_features": [
+      {
+        "name": "zipcode",
+        "pattern": "[0-9]{5}"
+      }
+    ],
+    "entity_synonyms": [
+      {
+        "value": "Booking an AC room at an allowed time",
+        "synonyms": []
+      }
+    ],
+    "common_examples": [
+      {
+        "text": "I want to reserve a table", 
+        "intent": "greet", 
+        "entities": []
+      }, 
+      {
+        "text": "How many seats would you like to reserve", 
+        "intent": "greet", 
+        "entities": []
+      }, 
+      {
+        "text": "2 seats",
+        "intent": "greet", 
+        "entities": []
+      }, 
+      {
+        "text": "Which section would you like to book AC or Non-AC", 
+        "intent": "greet", 
+        "entities": []
+      }, 
+      {
+        "value": "Click",
+        "synonyms": ["1","2"]
+      },
+      {
+        "text": "n half an hour",
+        "intent": "greet",
+        "entities": []
+      },
+      {
+        "text": "You have reserved 2 seats in our AC section for 7:30pm. Thanks!",
+        "intent": "greet",
+        "entities": []
+      },
+      {
+        "text": "Booking a Non-AC room at a disallowed time",
+        "intent": "greet",
+        "entities": []
+      },
+      {
+        "text": "I want to reserve a table for a party of 4", 
+        "intent": "affirm", 
+        "entities": []
+      }, 
+      {
+        "text": "Which section would you like to book AC or Non-AC", 
+        "intent": "affirm", 
+        "entities": []
+      }, 
+      {
+        "value": "Click",
+        "synonyms": ["1","2"]
+      },
+      {
+        "text": "When would you like to book a reservation? (We are only open from 7pm to 10pm)",
+        "intent": "affirm",
+        "entities": []
+      },
+      {
+        "text": " In half an hour",
+        "intent": "affirm",
+        "entities": []
+      },
+      {
+        "text": "We are not open at that time. We are only open from 7pm to 10pm",
+        "intent": "affirm",
+        "entities": []
+      },
+      {
+        "text": "When would you like to book a reservation? (We are only open from 7pm to 10pm)",
+        "intent": "affirm",
+        "entities": []
+      },
+      {
+        "text": "7:30 pm",
+        "intent": "affirm",
+        "entities": []
+      },
+      {
+        "text": "You have reserved 4 seats in our Non-AC section for 7:30pm. Thanks!",
+        "intent": "affirm",
+        "entities": []
+      }
+    ]
+  }
+}
